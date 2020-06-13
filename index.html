@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perioad Text Editor</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="header">Text editor with autosave</h1>
+  
+  <div class="editor">
+    <div class="documents">
+      <h2 class="documents__header">Documents</h2>
+      <p class="documents__tip">Alt + click - delete document</p>
+      <input class="documents__input" type="text" placeholder="New document">
+      <ul class="documents__list">
+
+      </ul>
+    </div>
+    <div class="editor__text-field" contenteditable="true">
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
